@@ -97,7 +97,7 @@ function updateAccountData(accountId) {
   range.setValues([[data.balance],
                   [data.marginCloseoutNAV],
                   [data.marginUsed],
-                  [''],
+                  ['=b2/b3*100'],
                   [data.marginAvailable],
                   [data.unrealizedPL],
                   [data.openTradeCount]])
